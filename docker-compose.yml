@@ -1,0 +1,5 @@
+wt-web:
+  image: "wt-web-docker:v1.0"
+  container_name: "wt-web-docker"
+  ports:
+      - "172.10.11.210:1097:80"
